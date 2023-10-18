@@ -1,10 +1,10 @@
-let score = false
+let score = true
 
 // console.log(typeof score);
 // console.log(typeof (score));
 
 let valueInNumber = Number(score)
-// console.log(valueInNumber);
+// console.log( valueInNumber);
 
 // "33" = 33
 // "33abc" = NaN - not a number but type of is number
@@ -54,4 +54,4 @@ let str3 = str1 + str2
 
 let gameCounter = 100
 ++gameCounter
-console.log(gameCounter);
+// console.log(gameCounter);
