@@ -38,3 +38,29 @@ console.log(typeof myFunction);
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  memorys are two types  stack and heap whenever your using stack 
+//jabi stack memory use hoti uska matlab apko uska ek copy milta hai and heap me original value milega
+
+// * stack (premitive) , Heap (non-premetive) 
+
+let myYoutubename = "mallanathmise.com"
+
+let anotherName = myYoutubename
+anotherName = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@upi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mallanathmise@gmai.com"
+console.log(userOne.email)
+console.log(userTwo.email)
