@@ -4,7 +4,8 @@ let myDate = new Date()
 // console.log(myDate.toString());
 // console.log(myDate.toDateString());
 // console.log(myDate.toLocaleString());
-// console.log(typeof myDate);
+
+// console.log(typeof myDate); // object
 
 // let myCreatedData = new Date(2023, 0, 23)
 // let myCreatedData = new Date(2023, 0, 23, 5, 3)
@@ -25,6 +26,8 @@ console.log(newDate.getDay());
 
 // `${newDate.getDate()} and the time ` 
 
-newDate.toLocaleString('default', {
+console.log(newDate.toLocaleString('default', {
     weekday: "long",
-})
+    minute: "2-digit",
+    imeZone:""
+}))
